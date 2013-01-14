@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>nStreamLmod</title>
+<link rel='stylesheet' type='text/css' href = 'css/Main.css'/>
+
+        <script type="text/javascript" language="javascript" src='$MANAGER_WIDGET/Common/API/Widget.js'></script>
+        <script type="text/javascript" language="javascript" src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Util/Language.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Util/Include.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/Plugin/Define.js"></script>
+        <script language="javascript" type="text/javascript" src="Javascript/Main.js"></script>
+
+        <object id="pluginObjectSef" border=0 classid="clsid:SAMSUNG-INFOLINK-SEF"></object>
+        <object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER"></object>
+        <object id="pluginAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+        <object id="pluginObjectTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+        <object id="pluginObjectScreen3D" border=0 classid="clsid:SAMSUNG-INFOLINK-SCREEN"></object>
+        <object id="pluginObjectVideo" border=0 classid="clsid:SAMSUNG-INFOLINK-VIDEO"></object>
+        <object id="pluginNetwork" border=0 classid="clsid:SAMSUNG-INFOLINK-NETWORK"></object>
+        <object id="pluginObjectNNavi" border=0 classid="clsid:SAMSUNG-INFOLINK-NNAVI"></object>
+        <object id="pluginTV" border=0 classid="clsid:SAMSUNG-INFOLINK-TV"></object>
+        <object id="PluginAppCommon" border=0 classid="clsid:SAMSUNG-INFOLINK-APPCOMMON"></object>
+        <object id="pluginTime" border=0 classid="clsid:SAMSUNG-INFOLINK-TIME"></object>
+        <object id="pluginObjectFileSystem" border=0 classid="clsid:SAMSUNG-INFOLINK-FILESYSTEM"></object>
+		<object id="pluginStorage" border=0 classid="clsid:SAMSUNG-INFOLINK-STORAGE"></object>
+</head>
+<body onload="Main.onLoad();" onunload="Main.onUnload();" id="mainbody">
+
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/IME/ime2.js"></script> 
+        <a href='javascript:void(0);' id='MainMenu_Anchor' onkeydown='KeyHandler.MainMenuKeyDown();'></a>
+        <a href='javascript:void(0);' id='LoadingPlayer_Anchor' onkeydown='KeyHandler.LoadingPlayerKeyDown();'></a>
+        <a href='javascript:void(0);' id='LivePlayer_Anchor' onkeydown='KeyHandler.LivePlayerKeyDown();'></a>
+        <a href='javascript:void(0);' id='VODPlayer_Anchor' onkeydown='KeyHandler.VODPlayerKeyDown();'></a>
+        <a href='javascript:void(0);' id='Selectbox_Anchor' onkeydown='KeyHandler.SelectboxKeyDown();'></a>
+        <a href='javascript:void(0);' id='RedFav_Anchor' onkeydown='KeyHandler.RedFavKeyDown();'></a>
+        <a href='javascript:void(0);' id='Guide_Anchor' onkeydown='KeyHandler.GuideKeyDown();'></a>
+		<a href='javascript:void(0);' id='Setap_Anchor' onkeydown='KeyHandler.SetapKeyDown();'></a>
+
+     <div id="main" style="display:none;">
+            <div id="background" style="display:none;"></div>         
+            <div id="top"><span  id="version"></span><span id="widget_date"></span><span id="widget_time"></span></div>
+            <div id="help_navi_menu" style="">
+                <div id="0_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/exit.png"></img></div><span id="navi_helpertext">Выход</span>
+                </div>
+                <div id="1_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/exit.png"></img></div><span id="navi_helpertext">Стоп</span>
+                </div>
+                <div id="2_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/tools.png"></img></div><span id="navi_helpertext">Настр.</span>
+                </div>
+                <div id="4_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/move.png"></img></div><span id="navi_helpertext">Листать</span>
+                </div>
+                <div id="4.1_help" style="display:none;">
+                    <span id="navi_helpertext">"P+/P-" Передвигать в окне Инфо.</span>
+                </div>
+                <div id="5_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/enter.png"></img></div><span id="navi_helpertext">Старт</span>
+                </div>
+                <div id="5.1_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/red.png"></img></div><span id="navi_helpertext">Очистить</span>  
+                </div>
+                <div id="3_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/red.png"></img></div><span id="navi_helpertext">Категор.</span>  
+                </div>
+                <div id="3.1_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/green.png"></img></div><span id="navi_helpertext">Доб. в избр.</span>
+                    <div id="navi_button"><img src="img/buttons/yellow.png"></img></div><span id="navi_helpertext">Откр. избр.</span>
+                </div>
+                <div id="3.2_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/red.png"></img></div><span id="navi_helpertext">Удалить</span>
+                    <div id="navi_button"><img src="img/buttons/green.png"></img></div><span id="navi_helpertext">Вверх</span>
+                    <div id="navi_button"><img src="img/buttons/yellow.png"></img></div><span id="navi_helpertext">Ввниз</span>
+                    <div id="3.21_help" style="display:none;">
+                        <div id="navi_button"><img src="img/buttons/blue.png"></img></div><span id="navi_helpertext">Перенести в друг. избр.</span>
+                    </div>
+					<div id="navi_button"><img src="img/buttons/back.png"></img></div><span id="navi_helpertext">Закрыть редакт.</span>
+                </div>
+                <div id="3.3_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/yellow.png"></img></div><span id="navi_helpertext">Откр. другое избр.</span>
+                </div>
+                <div id="3.4_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/blue.png"></img></div><span id="navi_helpertext">Редактировать</span>
+                </div>
+                <div id="11_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/enter.png"></img></div><span id="navi_helpertext">Сохранить</span>
+                </div>
+                <div id="6_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/back.png"></img></div><span id="navi_helpertext">Назад</span>
+                </div>
+                <div id="7_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/back.png"></img></div><span id="navi_helpertext">start.xml</span>
+                </div>
+                <div id="8_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/play.png"></img></div><span id="navi_helpertext">П./ П.</span>
+                </div>
+                <div id="9_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/info.png"></img></div><span id="navi_helpertext">Справка</span>
+                </div>
+                <div id="10_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/info.png"></img></div><span id="navi_helpertext">Выйти из справки</span>
+                </div>
+                <div id="10.1_help" style="display:none;">
+                    <span id="navi_helpertext">"GUIDE" - Закрыть подробную программку</span>
+                </div>
+                <div id="12_help" style="display:none;">
+                    <div id="navi_button"><img src="img/buttons/enter.png"></img></div><span id="navi_helpertext">Подтвердить ввод</span>
+                </div>
+            </div>
+
+        <div id ="rightHalf">
+            <div id="infoList"></div> 
+            <div id="ya_date" style="display:none;"></div>
+            <div id="ya_info" style="display:none;"></div>
+            <div id="ya_help" style="display:none;">
+                <div id="navi_button"><img src="img/buttons/rew.png"></img><img src="img/buttons/ff.png"></img></div><span id="navi_helpertext1">-/+д.</span>
+                <div id="navi_button"><img src="img/buttons/pause.png"></div></img><span id="navi_helpertext1">жанр</span>
+                <div id="navi_button"><img src="img/buttons/play.png"></img></div><span id="navi_helpertext1">весь д.</span><span id="navi_helpertext1">"GUIDE" подробно</span>
+            </div>           
+        </div>
+        <div id="channelList">
+            <div class="channel" id="ch0"><div id="number0" class="number"></div><div class="channel_logo"><img id="img0" src=""></div><div class="chan_info" id="chan0"><div class="channel_name" id="title0"></div></div></div>
+            <div class="channel" id="ch1"><div id="number1" class="number"></div><div class="channel_logo"><img id="img1" src=""></div><div class="chan_info" id="chan1"><div class="channel_name" id="title1"></div></div></div>
+            <div class="channel" id="ch2"><div id="number2" class="number"></div><div class="channel_logo"><img id="img2" src=""></div><div class="chan_info" id="chan2"><div class="channel_name" id="title2"></div></div></div>
+            <div class="channel" id="ch3"><div id="number3" class="number"></div><div class="channel_logo"><img id="img3" src=""></div><div class="chan_info" id="chan3"><div class="channel_name" id="title3"></div></div></div>
+            <div class="channel" id="ch4"><div id="number4" class="number"></div><div class="channel_logo"><img id="img4" src=""></div><div class="chan_info" id="chan4"><div class="channel_name" id="title4"></div></div></div>
+            <div class="channel" id="ch5"><div id="number5" class="number"></div><div class="channel_logo"><img id="img5" src=""></div><div class="chan_info" id="chan5"><div class="channel_name" id="title5"></div></div></div>
+            <div class="channel" id="ch6"><div id="number6" class="number"></div><div class="channel_logo"><img id="img6" src=""></div><div class="chan_info" id="chan6"><div class="channel_name" id="title6"></div></div></div>
+            <div class="channel" id="ch7"><div id="number7" class="number"></div><div class="channel_logo"><img id="img7" src=""></div><div class="chan_info" id="chan7"><div class="channel_name" id="title7"></div></div></div>
+            <div class="channel" id="ch8"><div id="number8" class="number"></div><div class="channel_logo"><img id="img8" src=""></div><div class="chan_info" id="chan8"><div class="channel_name" id="title8"></div></div></div>
+            <div class="channel" id="ch9"><div id="number9" class="number"></div><div class="channel_logo"><img id="img9" src=""></div><div class="chan_info" id="chan9"><div class="channel_name" id="title9"></div></div></div>
+        </div> 
+    </div> 
+    <div id="player" style="display:none;">
+        <div class="p_firts_line" style="">
+		    <div id="ch_number"></div>
+			<div class="ch_logo"><img id="ch_img" src=""></div>
+            <div id="ch_name"></div><div id="resolution">0X0</div><div id="time"></div> 
+			<div id="p_info_line" style="">
+                <div id="progressBarBG"><div id="progressBar"></div></div>
+                <div id="timeInfo">00% / 00:00 / 00:00</div>
+            </div>
+			<div id="p_bg_num_logo" style="">
+            </div>
+        </div>
+        <div id="p_epg_line" style="">
+            <div id="epg_info"></div>
+        </div>
+        <div id="p_second_line" style="">
+
+            <div id="help_navi_l_player" style="">
+                <div id="screen_size"><div id="navi_button"><img src="img/buttons/psize.png"></img></div><span id="navi_helpertext"> Размер</span></div>
+                <div id="navi_button"><img src="img/buttons/lr.png"></img></div><span id="navi_helpertext"> Громкость</span>
+                <div id="navi_button"><img src="img/buttons/ud.png"></img></div><span id="navi_helpertext">"P+/P-" Переключение Kаналов</span>
+                <div id="navi_button"><img src="img/buttons/exit.png"></img></div><span id="navi_helpertext">"EXIT" - Стоп</span>
+                <div id="navi_button"><img src="img/buttons/back.png"></img></div><span id="navi_helpertext"> Список Kаналов</span>
+            </div>
+            <div id="help_navi_vod_player" style="">
+                <div id="vod_pause"><div id="navi_button"><img src="img/buttons/pause.png"></img></div><span id="navi_helpertext">Пауза</span></div>
+                <div id="vod_play" style="display:none"><div id="navi_button"><img src="img/buttons/play.png"></img></div><span id="navi_helpertext"> Пуск </span></div>
+                <div id="navi_button"><img src="img/buttons/exit.png"></img></div><span id="navi_helpertext">"EXIT"- Стоп</span>
+                <div id="screen_size"><div id="navi_button"></img><img src="img/buttons/psize.png"></img></div><span id="navi_helpertext">Размер</span></div>
+				<div id="navi_button"><img src="img/buttons/lr.png"></img></div><span id="navi_helpertext">Громкость</span>
+                <div id="navi_button"><img src="img/buttons/ud.png"></img></div><span id="navi_helpertext">2 мин.</span>
+                <div id="navi_button"><img src="img/buttons/rew.png"></img><img src="img/buttons/ff.png"></img></div><span id="navi_helpertext">-/+ 30 сек.</span>
+                <div id="navi_button"><img src="img/buttons/0_9.png"></img></div><span id="navi_helpertext"> 0 - 90%</span>
+                <div id="navi_button"><img src="img/buttons/back.png"></img></div><span id="navi_helpertext">Список</span>
+            </div> 
+        </div>
+    </div>
+        <div id="help_set_par" style="display:none;">
+                <div id="help_button_l"><img src="img/buttons/key_left_sel.png"></img></div><span id="set_helpertext">ИЗМЕНИТЬ</span>
+                <div id="help_button_r"><img src="img/buttons/key_right_sel.png"></img></div>
+       </div>	
+        <div id="black_line_top" style="display:none;"></div>
+        <div id="statusbar" style="display:none;"><span id="status"></span></div>
+        <div id="statusbar1" style="display:none;"><span id="status1"></span></div>
+        <div id="flashplayer" style="display:none;"></div>
+        <div id="selectbox" style="display:none;"></div>
+        <div id="loading"style="display:none;"><img id='imgAnim'></img></div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<playlist_name>-= Плейлист с сервера Гермета =-</playlist_name> 
+<channel>
+  <title><![CDATA[Horosho.TV]]></title> 
+  <logo_30x30>film.png</logo_30x30>
+  <browser_url> </browser_url>
+  <description><![CDATA[<table><table><tr><td style="vertical-align: top"><img src="logos/film.png" height="128" width="128"/></td><td><h1>Horosho.TV</h1></td></tr></table><table><tr>Проект horosho.tv осуществляет бесплатную онлайн-трансляцию сериалов и короткометражных фильмов. Наша цель – предоставить посетителям возможность получить простой и удобный доступ к огромному хранилищу зарубежных и отечественных сериалов.</tr></table></table>]]></description> 
+  <playlist_url>http://nstream.germet.net/xml/horoshotv.php</playlist_url> 
+</channel>
+<channel>
+  <title><![CDATA[TVigle Фильмы,Сериалы,Мультфилмы]]></title> 
+  <logo_30x30>film.png</logo_30x30>
+  <browser_url></browser_url>
+  <description><![CDATA[<table><tr><img src="http://www.china-fest.com/images/logo_tvigle.png" />Развлекательный портал с видеороликами различных жанров: от интернет-сериалов и мультфильмов до музыкальных клипов и арт-хауса.</tr></table>]]></description>  
+  <playlist_url>http://nstream.germet.net/xml/tvigle/tvigle.xml</playlist_url> 
+</channel>
+<channel>
+  <title><![CDATA[RADIO]]></title> 
+  <logo_30x30>music.png</logo_30x30>
+  <browser_url> </browser_url>
+  <description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/music.png" height="128" width="128"/></td><td>RADIO - Музыка на любой вкус!<td></tr></table>]]></description>  
+  <playlist_url>http://nstream.germet.net/xml/radio1.xml</playlist_url> 
+</channel>
+<channel>
+  <title><![CDATA[YOUTUBE SEARCH]]></title> 
+  <logo_30x30>youtube.png</logo_30x30>
+  <description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/youtube.png" height="128" width="128"/></td><td>Поиск на портале YouTube !<h1>YouTube</h1></td></tr></table>]]></description> 
+  <playlist_url>http://nstream.germet.net/xml/youtube.php</playlist_url> 
+</channel>
+<channel>
+   <title>Вход в закрытый плейлист</title>
+   <playlist_url>http://germet.net/pay.php</playlist_url>
+   <description><![CDATA[<table><td style="vertical-align: top;padding-right:30px; "><img src="logos/film.png" height="128" width="128"/></td><td><h3>Доступ ограничен!<h3><h1>Видеотека</h1></td></table>===========================================<br>По вопросам подключения обращайтесь<br> по адресу:"<font style='color:#00ccff;'>http://germet.net</font>".]]></description>
+</channel>
+</items>

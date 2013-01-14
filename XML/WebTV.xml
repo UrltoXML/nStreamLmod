@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+<playlist_name>no_name</playlist_name>
+<all_channels>
+    <all_logo></all_logo>
+    <all_size></all_size>
+    <all_audiotrack_num></all_audiotrack_num>
+    <all_buffer></all_buffer>
+    <all_timeshift></all_timeshift>
+</all_channels>
+<category>
+	<category_id>1</category_id>
+	<category_title>Music RTMP</category_title>
+</category>	
+<category>
+	<category_id>2</category_id>
+	<category_title>WebTV</category_title>
+</category>	
+<category>
+	<category_id>3</category_id>
+	<category_title>Planeta TV</category_title>
+</category>	
+<category>
+	<category_id>4</category_id>
+	<category_title>Видео</category_title>
+</category>	
+<category>
+	<category_id>5</category_id>
+	<category_title>Music RTMP</category_title>
+</category>	
+<channel>
+	<title>Radio 105 Network</title>
+	<stream_url><![CDATA[rtmp://fms.105.net:1935/live/&id=105Test1]]></stream_url> 
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/Radio 105 Network.png" height="128" width="128"/></td>rtmp stream</td><td><h1>Radio 105 Network</h1></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title>HD TV1</title>
+	<stream_url><![CDATA[mms://server3.streaming.cesnet.cz/hdtv1]]></stream_url> 	
+	<description></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>HD Media</title>
+	<stream_url><![CDATA[http://89.208.33.168:8100]]></stream_url> 
+	<description>HD Media 1</description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>HD Media</title>
+	<stream_url><![CDATA[http://93.95.98.28:8100]]></stream_url> 
+	<description>HD Media 2</description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>HD Media 3D</title>
+	<stream_url><![CDATA[http://www.hdmedia.ru/3d/3d.php]]></stream_url> 
+	<description>Впервые в мире! 3D-реклама на HDTV-канале HD Media!</description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>NASA_HD</title>
+	<stream_url><![CDATA[http://liveips.nasa.gov.edgesuite.net/msfc/Wifi.m3u8]]></stream_url> 
+	<description>hls stream</description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>BRODILO.TV_HD</title>
+	<stream_url><![CDATA[http://brodilo.tv/channel.php]]></stream_url> 
+	<description><![CDATA[BRODILO.TV - это бесплатный HDTV канал, созданный энтузиастами для энтузиастов!
+	<br>Вот уже несколько лет, как HD-камеру можно приобрести в обычном магазине бытовой электроники, но те кто их покупает обычно снимают "в стол или на полку".
+	<br> Тем временем технологии и скорости доступа в Интернет доразвивались до того, что стало возможным транслировать HD-контент в реальном времени.
+	<br> Мы берем с собой HD-камеры в путешествия, экспедиции или просто снимаем интересные вещи и явления.
+	<br>Телевидение должно быть бесплатным для зрителя, это в равной степени относится и к HDTV.
+    <br>А благодарный зритель всегда найдет способ поcодействовать развитию проекта, который ему понравился.
+    <br>Чем больше мы получаем Вашей поддержки, тем больше у нас времени и других ресурсов для увеличения качества и количества материалов для вещания.]]></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>FRESHTV.TV</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=channel_4&video_height=416&video_width=752]]></stream_url> 
+	<description><![CDATA[Звёзды и молодые таланты российского шоу-бизнеса.Популярная музыка 24 часа в сутки, 365 дней в году.Здесь не соскучишься! + url]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Premiere.TV</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=channel_5&video_height=416&video_width=752]]></stream_url> 
+	<description><![CDATA[Телеканал Премьера.tv - это знакомства с интересными, но нераскрученными кинокартинами, авторским кино. + URL]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>TVTOUR.TV</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=channel_2&video_height=416&video_width=752]]></stream_url> 
+	<description><![CDATA[Уникальные фильмы о путешествиях по странам и континентам. Здесь Вы откроете для себя много нового и интересного. + URL]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Relax.TV</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=channel_3&video_height=416&video_width=752]]></stream_url> 
+	<description>Relax.TV</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Барбарики.ТВ</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=channel_6&video_height=416&video_width=752]]></stream_url> 
+	<logo_30x30>119.png</logo_30x30>
+	<description>Барбарики.ТВ</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>PIK-TV</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/live/&id=pik.stream&video_height=416&video_width=752]]></stream_url> 
+	<description>PIK-TV</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>РОССИЯ 24</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/rtplive/&id=vesti_24.sdp]]></stream_url> 
+	<description></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>RTR Planeta</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/rtplive/&id=planeta.sdp]]></stream_url> 
+	<description>RTR Planeta</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Каббала ТВ</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/rtplive/&id=cabbala.sdp]]></stream_url> 
+	<logo_30x30>99.png</logo_30x30>
+	<description></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Doctor Degree</title>
+	<stream_url><![CDATA[rtmp://planeta-online.tv:1936/live/&id=channel_22&video_height=416&video_width=752]]></stream_url> 
+	<description>Doctor Degree</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Radio FRESH</title>
+	<stream_url><![CDATA[rtmp://www.planeta-online.tv:1936/rtplive/&id=channel_13&video_height=416&video_width=752]]></stream_url> 
+	<description>Radio FRESH</description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title>Югра</title>
+	<stream_url><![CDATA[mms://217.115.183.210/Ugra]]></stream_url> 
+	<description></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>AmTV</title>
+	<stream_url><![CDATA[mms://mms.amtv.ru/BizOne]]></stream_url> 
+	<description></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>Рустави-2</title>
+	<stream_url><![CDATA[mms://208.75.229.18/live1]]></stream_url> 
+	<description></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>Шансон ТВ</title>
+	<stream_url><![CDATA[http://89.208.33.168:9040]]></stream_url> 
+	<description></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title>test1 youtube</title>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=uRlGeuhVmrU]]></stream_url>
+	<description><![CDATA[]]></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test2 youtube</title>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=aeT0dZbGkzc]]></stream_url>
+	<description><![CDATA[]]></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test3 youtube</title>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=xeQYVvKr5Mo]]></stream_url>
+	<description><![CDATA[]]></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test4 youtube +100500 HD</title>
+	<description></description>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=4foHwb6qWeU]]></stream_url>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test5 youtube 3D TV HD</title>
+	<description></description>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=jJjJeYfAwQw]]></stream_url>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test1 vk.com</title>
+	<stream_url><![CDATA[http://vk.com/video_ext.php?oid=10550613&id=160968351&hash=1f69a56ad2abc013&hd=1]]></stream_url>
+	<description></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test2 vk.com</title>
+	<stream_url><![CDATA[http://vk.com/video_ext.php?oid=11979229&id=159896797&hash=106d12ea4ca0c497&hd=1]]></stream_url>
+	<description></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test3 vk.com</title>
+	<stream_url><![CDATA[http://vk.com/video_ext.php?oid=-19888134&id=151710788&hash=f6b98c2158409c21]]></stream_url>
+	<description></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test4 vk.com</title>
+	<stream_url><![CDATA[http://vk.com/video_ext.php?oid=-19888134&id=151710790&hash=4c02e48576cfcf30]]></stream_url>
+	<description></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>test5 vk.com</title>
+	<stream_url><![CDATA[http://vk.com/video_ext.php?oid=-13428057&id=139677786&hash=b8471c0ed0084bbf]]></stream_url>
+	<description></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>testyoutube live</title>
+	<stream_url><![CDATA[http://www.youtube.com/watch?v=MrIxH6DToXQ#]]></stream_url>
+	<description><![CDATA[]]></description>
+	<logo_30x30>film.png</logo_30x30>
+	<category_id>4</category_id>
+</channel>
+</items>

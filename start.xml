@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+<playlist_name>СТАРТОВЫЙ ПЛЕЙЛИСТ</playlist_name> 
+<category>
+	<category_id>1</category_id>
+	<category_title>Бесплатные плейлисты</category_title>
+</category>
+<category>
+	<category_id>2</category_id>
+	<category_title>Комерческие плейлисты</category_title>
+</category>	
+<category>
+	<category_id>3</category_id>
+	<category_title>Плейлисты на флешшке</category_title>
+</category>
+<category>
+	<category_id>4</category_id>
+	<category_title>Пустые позиции</category_title>
+</category>
+<category>
+	<category_id>5</category_id>
+	<category_title>Избранное</category_title>
+</category>
+<channel>
+	<title><![CDATA[Тестовый плейлист <font color="#00ccff">"WebTV"</font>]]></title>
+	<playlist_url>XML/WebTV.xml</playlist_url>
+	<description><![CDATA[<table style="font-size:20px;"><tr><td> Координаты  разработчикa  виджета  можно  найти в  <font color="#00ccff">СПРАВКЕ!</font> Кнопка INFO!</td></tr></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table><table><tr><td style="vertical-align: top"><img src="logos/image.png" height="128" width="128"></img></td><td>Тестовый плейлист для проверки функций плеера!<h1>WebTV(.xml)</h1><td></tr></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"danja_M"</font>]]></title>
+	<playlist_url>http://samez.eu/start.xml</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/film.png" height="128" width="128"></img></td><td>Бесплатное IP-TV и видеотеки.<h2>- = от "danja_M" = - </h2></td></tr></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">" daniila "</font>]]></title>
+	<playlist_url>http://dm-05.ucoz.ru/lmod/dm-05.xml</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/film.png" height="128" width="128"></img></td><td>Бесплатная видеотека <br><h1>от "daniila" </h1></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"Tsnakemana"</font>]]></title>
+	<playlist_url><![CDATA[http://tr-41.narod.ru/widget/XML/LMOD/index.xml]]></playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/film.png" height="128" width="128"></img></td><td>Динамически создаваемые плейлисты</font><h1>"Tsnakeman"</h1></td></tr></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Последняя информация с новинками кино с передовых порталов на экране Вашего ТВ без каких-либо дополнительных настроек. Будьте в курсе последних новостей киноиндустрии.]]></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"Ron666"</font>]]></title>
+	<playlist_url>http://parser.newdom54.ru/index.php</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/film.png" height="128" width="128"></img></td><td>Оригинальная видиотека<br><h1>от "Ron666" </h1></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+    <title><![CDATA[Плейлист от <font color="#00ccff">"SharkSoft"</font>]]></title>
+    <description><![CDATA[<table><td style="vertical-align: top"><img src="http://sharksoft.no-ip.info/smarttv/logos/plogo.png" height="128" width="128"/></td><td><h3>Видеотека от <font color="#00ccff">"SharkSoft"</h3></font></h2></td></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Каталог плейлистов для просмотра онлайн видео.]]></description>
+    <playlist_url><![CDATA[http://sharksoft.no-ip.org/smarttv/sharksoft.php]]></playlist_url>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Портал <font color="#00ccff">"gosha99"</font>]]></title>
+	<playlist_url><![CDATA[http://gegen-abzocke.com/xml/portal2.xml]]></playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img  src="logos/film.png" height="128" width="128"></img></td><td><h2>Портал "gosha99"</h2>На этом плеере плейлист работает только у поддержавших "gosha99"!</td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Если хотите поддержать его работу :<br>Paypal реквизиты :<font color="#00ccff"> http://tinyurl.com/njcspx</font><br>Webmoney:<font color="red"> Z143883463745 , U235792039343,</font><br><font color="red"> R264459550242</font>.<br>Для активации доступа не забудте сообшить Гоше на форуме "<font color="#00ccff">http://www.pristavka.de</font>" ваш МАС арес (кн.REC) !]]></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты <font color="#00ccff">"Movie Park"</font>]]></title>
+	<playlist_url><![CDATA[http://project.zarsoft.de/start.php?]]></playlist_url>
+	<description><![CDATA[<table><table width="100%"><tr><td style="text-align:center;font-size:20px;color:#00ccff">Movie Park - Закрытый плейлист!</td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Для открытия доступа к полному плейлисту нужно навести фокус на название плейлиста и войти в настройки виджета кнопкой «TOOLS».<br>Далее нужно ввести логин "<font color="#00ccff">user=LOGIN</font>" и пароль <br>"<font color="#00ccff">pass=PASSWORD</font>" , заменив "<font color="#00ccff">LOGIN</font>" и "<font color="#00ccff">PASSWORD</font>" на ваши данные и выйти из настроек, нажав кнопку "ENTER".<br>Подробное описание проекта можно найти на форуме "<font color="#00ccff">orbitasat.com</font>"!]]></description>
+	<category_id>2</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"sweta1979"</font>]]></title>
+	<playlist_url>http://iptv.root-host.pro/list/test.xml</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/image.png" height="128" width="128"></img></td><td>Бесплатное IP-TV и видеотеки.<h2>=ALL-RUSS-IPTV=</h2></td></table><table style="width:100%; padding-top:4px;padding-bottom:4px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"valera & cvykas"</font>]]></title>
+	<playlist_url>http://vidik.16mb.com/enigma2/portal.xml</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td><h2>--= valera =---&<br>--= cvykas =--</h2></td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA["ИСТОРИЯ"]]></title>
+	<playlist_url>OpenHistory</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td><h2> - = ИСТОРИЯ = - </h2></td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>5</category_id>
+</channel>
+<channel>
+	<title><![CDATA["ИЗБРАННОЕ"]]></title>
+	<playlist_url>OpenFav</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td><h2> - = ИЗБРАННОЕ = - </h2></td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>5</category_id>
+</channel>
+<channel>
+	<title>СКАНЕР USB ПОРТОВ</title>
+	<playlist_url>ScanUSB</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/usb_logo.png" height="128" width="128"></img></td><td><h2>Просмотр  файлов и папок на USB накопителях.</h2></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title><![CDATA[<font color="#00ccff">".xml"</font> - плейлист на флешке]]></title>
+	<playlist_url>usb/nStream.xml</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td> Плейлист на флешке ! <h2>nStream.xml</h2></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Назовите ваш плейлист " nStream.xml " , скопируйте его на флешку и подключите флешку к телевизору.]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title><![CDATA[<font color="#00ccff">".m3u"</font> - плейлист на флешке]]></title>
+	<playlist_url>usb/nStream.m3u</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td> Плейлист на флешке ! <h2>nStream.m3u</h2></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>Назовите ваш плейлист " nStream.m3u " , скопируйте его на флешку и подключите флешку к телевизору.]]></description>
+	<category_id>3</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"Germeta"</font>]]></title>
+	<playlist_url>XML/germet.xml</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"/></td><td>Видеотеки, музыка, радио <br> поиск на YouTube<h2>от Germeta</h2></td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title><![CDATA[Плейлисты от <font color="#00ccff">"englishman"</font>]]></title>
+	<playlist_url>http://netplayer.tym.cz/xml/nstream/sk-cz.xml</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td><h2> - = "englishman" = - </h2></td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>1</category_id>
+</channel>
+<channel> 
+    <title><![CDATA[WEB CENTER]]></title> 
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td>Для входа включить в настройках  маскировку под браузер!</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+    <playlist_url><![CDATA[http://webtv.3owl.com/files/nstream.php]]></playlist_url>
+	<category_id>1</category_id>
+</channel>
+<channel>
+	<title>Пустой плейлист</title>
+	 <playlist_url>stop</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td>Место зарезервированно под ваш плейлист! Перед установкой виджета в "start.xml" на данной позиции  можно прописать название и адрес вашего плейлиста</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>4</category_id>
+</channel>
+<channel>
+	<title>Пустой плейлист</title>
+	 <playlist_url>stop</playlist_url>
+	<description><![CDATA[<table><td style="vertical-align: top"><img src="logos/open.png" height="128" width="128"></img></td><td>Место зарезервированно под ваш плейлист! Перед установкой виджета в "start.xml" на данной позиции  можно прописать название и адрес вашего плейлиста</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
+	<category_id>4</category_id>
+</channel>
+</items>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+    <type>user</type>
+    <previewjs>nStreamLmod</previewjs>
+    <ver>2.54</ver>
+    <mgrver>1.000</mgrver>
+    <network>n</network>
+    <fullwidget>y</fullwidget>
+    <category>video</category>
+    <movie>n</movie>
+    <srcctl>n</srcctl>
+    <ticker>n</ticker>
+    <childlock>n</childlock>
+    <audiomute>n</audiomute>
+    <videomute>n</videomute>
+    <flashplayer>y</flashplayer>
+    <dcont>y</dcont> 
+    <apptype>11</apptype> 
+    <widgetname>nStreamLmod</widgetname>
+    <description></description>
+    <width>960</width>
+    <height>540</height>    
+    <ThumbIcon>img/logo/ico106x87.png</ThumbIcon>
+    <BigThumbIcon>img/logo/ico115x95.png</BigThumbIcon>
+    <ListIcon>img/logo/ico86x70.png</ListIcon>
+    <BigListIcon>img/logo/ico95x78.png</BigListIcon>	
+    <author>
+    <name>FIOKOM</name>
+    <email>fiowidget@yandex.ru</email>
+    <link></link>
+    <organization></organization>
+    </author>
+</widget>
